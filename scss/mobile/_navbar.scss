@@ -1,0 +1,75 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    background: #fff;
+    flex-flow: column wrap;
+    backdrop-filter: blur(15px);
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .menu {
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-end;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-top: 20px;
+      box-sizing: border-box;
+      nav {
+        width: 100%;
+        margin-bottom: 30px;
+        ul {
+          width: inherit;
+          height: inherit;
+          list-style: none;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          row-gap: 20px;
+          column-gap: 10px;
+          li {
+            width: 100%;
+            text-align: center;
+            height: inherit;
+            .home {
+              color: rgb(0, 0, 0);
+            }
+            a {
+              color: var(--Black, #333131);
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              display: block;
+              text-decoration: none;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+      .donet {
+        display: inline-flex;
+        padding: 12px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        background: var(--Primary-text, #1d2130);
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+  

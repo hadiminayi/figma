@@ -1,0 +1,79 @@
+.cta {
+    width: 100%;
+    padding-top: 96px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .bg {
+      width: 100%;
+      border-radius: 12px;
+      margin-left: 110px;
+      margin-right: 110px;
+      height: 384px;
+      background-image: url("../../imges/cta.png");
+      background-size: cover;
+      flex-flow: row wrap;
+      padding-bottom: 93px;
+      .content {
+        width: 100%;
+        text-align: center;
+        h2 {
+          color: #fff;
+          text-align: center;
+          /* H2 */
+          font-family: Roboto;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%; /* 57.6px */
+        }
+        .bottom {
+          margin-top: 32px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 32px;
+          align-items: center;
+          button {
+             
+            &:nth-of-type(1) {
+              display: inline-flex;
+              padding: 16px 32px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 4px;
+              background: var(--Green-primary, #70c174);
+              backdrop-filter: blur(40px);
+              color: #fff;
+              text-align: right;
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              border: unset;
+            }
+            &:nth-of-type(2) {
+              display: inline-flex;
+              padding: 16px 32px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 4px;
+              background: #fff;
+              backdrop-filter: blur(40px);
+              color: var(--Primary-text, #1d2130);
+              text-align: right;
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              border: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+  

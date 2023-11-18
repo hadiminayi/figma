@@ -1,0 +1,164 @@
+.heder-section {
+    width: 100%;
+    background: var(--Green-tertiary, #eff7f2);
+    padding-top: 96px;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 24px;
+    column-gap: 96px;
+    .main-blog {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 20px;
+      .section-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+        color: var(--Primary-text, #1d2130);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        justify-content: flex-start;
+      }
+      h1 {
+        color: var(--Primary-text, #1d2130);
+        /* H1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        padding-top: 32px; /* 67.2px */
+      }
+      p {
+        padding-top: 16px;
+        color: var(--Secondary-text, #525560);
+        /* Paragraph */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+      }
+      button {
+        display: inline-flex;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        background: var(--Green-primary, #70c174);
+        backdrop-filter: blur(40px);
+        color: #fff;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 48px;
+        border: unset;
+      }
+    }
+    .slide-list {
+      width: 100%;
+      border-radius: 12px;
+      background: #fff;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .blogs {
+        width: 512px;
+        height: 528px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        .blog-post {
+          display: flex;
+          column-gap: 24px;
+          &:nth-of-type(1) {
+            width: 512px;
+            height: 160px;
+            .text {
+              width: 296px;
+              height: 120px;
+              h6 {
+                color: var(--Primary-text, #1d2130);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 30px */
+              }
+              p {
+                color: var(--Secondary-text, #525560);
+                /* Paragraph */
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%; /* 25.6px */
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            width: 512px;
+            height: 160px;
+            .text {
+              width: 296px;
+              height: 120px;
+              h6 {
+                  color: var(--Primary-text, #1d2130);
+                  font-family: Roboto;
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 30px */
+                }
+                p {
+                  color: var(--Secondary-text, #525560);
+                  /* Paragraph */
+                  font-family: Roboto;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 160%; /* 25.6px */
+                }
+            }
+          }
+          &:nth-of-type(3) {
+            width: 512px;
+            height: 160px;
+            .text {
+              width: 296px;
+              height: 120px;
+              h6 {
+                  color: var(--Primary-text, #1d2130);
+                  font-family: Roboto;
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 30px */
+                }
+                p {
+                  color: var(--Secondary-text, #525560);
+                  /* Paragraph */
+                  font-family: Roboto;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 160%; /* 25.6px */
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+  

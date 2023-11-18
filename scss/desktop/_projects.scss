@@ -1,0 +1,223 @@
+.projects {
+  width: 100%;
+  padding-bottom: 96px;
+  .section-title {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    width: fit-content;
+    padding-left: 110px;
+    padding-top: 96px;
+    box-sizing: border-box;
+  }
+  .h2 {
+    width: 640px;
+    padding-left: 219px;
+    padding-top: 32px;
+    h2 {
+      color: var(--Primary-text, #1d2130);
+      /* H2 */
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; /* 57.6px */
+    }
+  }
+  .projects-row {
+    width: 100%;
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+    .project {
+      &:nth-of-type(1) {
+        width: 411px;
+        height: 421px;
+        background-image: url("../../imges/porjects1.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content {
+          width: 315px;
+          height: 293px;
+          h3 {
+            color: #fff;
+
+            /* H3 */
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 42px */
+            padding-left: 48px;
+          }
+          p {
+            color: #fff;
+
+            /* Paragraph */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 25.6px */
+            padding-top: 16px;
+            padding-left: 48px;
+          }
+          button {
+            display: inline-flex;
+            padding: 16px 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 4px;
+            background: #fff;
+            backdrop-filter: blur(40px);
+            color: var(--Primary-text, #1d2130);
+            text-align: right;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: 64px;
+            margin-left: 48px;
+            border: unset;
+            transition: 300ms;
+            &:hover{
+                background-color: blue;
+                color: whitesmoke;
+            }
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        width: 411px;
+        height: 421px;
+        background-image: url("../../imges/projects2.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content {
+            width: 315px;
+            height: 293px;
+            h3 {
+              color: #fff;
+  
+              /* H3 */
+              font-family: Roboto;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%; /* 42px */
+              padding-left: 48px;
+            }
+            p {
+              color: #fff;
+  
+              /* Paragraph */
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 160%; /* 25.6px */
+              padding-top: 16px;
+              padding-left: 48px;
+            }
+            button {
+              display: inline-flex;
+              padding: 16px 32px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 4px;
+              background: #fff;
+              backdrop-filter: blur(40px);
+              color: var(--Primary-text, #1d2130);
+              text-align: right;
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              margin-top: 64px;
+              margin-left: 48px;
+              border: unset;
+              transition: 300ms;
+              &:hover{
+                  background-color: blue;
+                  color: whitesmoke;
+              }
+            }
+          }
+        
+
+      }
+      &:nth-of-type(3) {
+        width: 411px;
+        height: 421px;
+        background-image: url("../../imges/projects3.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content {
+            width: 315px;
+            height: 293px;
+            h3 {
+              color: #fff;
+  
+              /* H3 */
+              font-family: Roboto;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%; /* 42px */
+              padding-left: 48px;
+            }
+            p {
+              color: #fff;
+  
+              /* Paragraph */
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 160%; /* 25.6px */
+              padding-top: 16px;
+              padding-left: 48px;
+            }
+            button {
+              display: inline-flex;
+              padding: 16px 32px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 4px;
+              background: #fff;
+              backdrop-filter: blur(40px);
+              color: var(--Primary-text, #1d2130);
+              text-align: right;
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              margin-top: 64px;
+              margin-left: 48px;
+              border: unset;
+              transition: 300ms;
+              &:hover{
+                  background-color: blue;
+                  color: whitesmoke;
+              }
+            }
+          }
+      }
+    }
+  }
+}

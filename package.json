@@ -1,0 +1,20 @@
+{
+  "name": "figma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss":"node-sass -w scss/main.scss -o css/ -r ",
+    "desktop":"node-sass -w scss/desktop/desktop.scss -o css/desktop -r",
+    "tablet":"node-sass -w scss/tablet/tablet.scss -o css/tablet -r",
+    "mobile":"node-sass -w scss/mobile/mobile.scss -o css/mobile -r"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.5"
+  }
+}
